@@ -1,0 +1,23 @@
+.CardDeck {
+    text-align: center;
+}
+
+.CardDeck-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.CardDeck-winner {
+    color: green;
+    margin-bottom: 0px;
+}  
+
+.CardDeck-loser {
+    color: red;
+    margin-bottom: 0px;
+}
+
+.CardDeck-exp {
+    margin: 0.5rem;
+}
